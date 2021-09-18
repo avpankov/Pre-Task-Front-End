@@ -1,0 +1,260 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+* h1, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+* h1 {
+    font-size: 2.5rem;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 2000px;
+    background: linear-gradient(#fff, rgb(226, 226, 226));
+    background-size: contain;
+    position: relative;
+}
+
+.header {
+    height: 300px;
+    background-image: url(thought-catalog-505eectW54k-unsplash.jpg);
+    background-size: cover;
+}
+
+main {
+    position: relative;  
+}
+
+.wrapper {
+    margin: auto;
+    width: 800px;
+    /* height: 200px; */
+    position: absolute;
+    top: -150px;
+    left: 25%;
+}
+
+.intro {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgb(172, 171, 171);
+}
+
+.about-me {
+    display: flex;
+}
+
+.about-me .my-photo img {
+    margin: 40px 20px 40px 40px;
+}
+
+.about-me .about {
+    margin: 40px 40px 40px 20px;
+}
+
+#id {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+.about-me .about .greeting {
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+
+.about-me .about .greeting h1 {
+    padding-top: 20px;
+}
+
+.information table {
+    padding-top: 20px;
+}
+
+.information td {
+    padding: 10px 20px 10px 0;
+}
+
+.social-networks {
+    background-color: #4fb2cac5;
+    font-size: 1.2rem;
+    padding: 25px 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-networks a {
+    color: #fff;
+}
+
+.resume {
+    margin: auto;
+    padding: 20px 0;
+    width: 800px;
+    text-align: center;
+    line-height: 28px;
+}
+
+.resume p {
+    padding: 20px 0 ;
+}
+
+.skills {
+    text-align: center;
+    margin: auto;
+    padding: 20px 0;
+    width: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgb(172, 171, 171);
+}
+
+.skills table {
+    padding: 20px 0;
+}
+
+.skills table tbody tr td{
+    padding: 10px 20px;
+}
+
+.rectangle1 {
+    position: absolute;
+    width: 400px;
+    height: 8px;
+    background: #7fdeebc5;
+    border-radius: 10px;
+}
+
+.rectangle2 {
+    position: absolute;
+    width: 310px;
+    height: 8px;
+    background: #4fb2cac5;
+    border-radius: 10px;
+}
+
+.rectangle3 {
+    position: absolute;
+    width: 400px;
+    height: 8px;
+    background: #7fdeebc5;
+    border-radius: 10px;
+}
+
+.rectangle4 {
+    position: absolute;
+    width: 300px;
+    height: 8px;
+    background: #4fb2cac5;
+    border-radius: 10px;
+}
+
+.rectangle5 {
+    position: absolute;
+    width: 400px;
+    height: 8px;
+    background: #7fdeebc5;
+    border-radius: 10px;
+}
+
+.rectangle6 {
+    position: absolute;
+    width: 280px;
+    height: 8px;
+    background: #4fb2cac5;
+    border-radius: 10px;
+}
+
+.rectangle7 {
+    position: absolute;
+    width: 400px;
+    height: 8px;
+    background: #7fdeebc5;
+    border-radius: 10px;
+}
+
+.rectangle8 {
+    position: absolute;
+    width: 100px;
+    height: 8px;
+    background: #4fb2cac5;
+    border-radius: 10px;
+}
+
+.rectangle9 {
+    position: absolute;
+    width: 400px;
+    height: 8px;
+    background: #7fdeebc5;
+    border-radius: 10px;
+}
+
+.rectangle10 {
+    position: absolute;
+    width: 170px;
+    height: 8px;
+    background: #4fb2cac5;
+    border-radius: 10px;
+}
+
+.comment {
+    padding: 40px 0;
+    text-align: left;
+}
+
+.container {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container table td:first-child {
+    padding-right: 10px;
+}
+.comment textarea {
+    padding: 5px;;
+    resize: none;
+    border: none;
+    box-shadow: 0 0 5px rgb(172, 171, 171);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.comment h3 {
+    text-align: center;
+}
+
+.btn {
+    color: #fff;
+    background-color: #4fb2cac5;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 40px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: box-shadow .3s;
+}
+
+.btn:hover {
+    box-shadow: 0 0 6px rgb(172, 171, 171);
+}
+
+.invalid {
+    height: 5px;
+    color: red;
+    font-size: 12px;
+}
+
+.valid {
+    height: 5px;
+    color: green;
+    font-size: 12px;
+}
