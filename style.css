@@ -38,10 +38,10 @@ main {
 .wrapper {
     margin: auto;
     width: 800px;
-    /* height: 200px; */
     position: absolute;
     top: -150px;
-    left: 25%;
+    left: 50%;
+    margin-left: -400px;
 }
 
 .intro {
@@ -218,6 +218,7 @@ main {
 }
 
 .container table td:first-child {
+    vertical-align: top;
     padding-right: 10px;
 }
 .comment textarea {
