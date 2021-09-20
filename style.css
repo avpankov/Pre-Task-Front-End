@@ -44,6 +44,10 @@ main {
     margin-left: -400px;
 }
 
+a:link {
+    color: black;
+}
+
 .intro {
     background-color: #fff;
     box-shadow: 0 0 5px rgb(172, 171, 171);
