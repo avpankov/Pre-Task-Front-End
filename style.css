@@ -95,10 +95,6 @@ main {
     color: #fff;
 }
 
-.social-networks a:hover {
-    box-shadow: 0 0 5px rgb(172, 171, 171);
-}
-
 .resume {
     margin: auto;
     padding: 20px 0;
