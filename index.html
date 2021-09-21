@@ -15,15 +15,15 @@
     <header class='header'></header>
     <main>
         <div class="wrapper">
-            <article class="intro">
-                <section class="about-me">
+            <section class="intro">
+                <div class="about-me">
                     <div class="my-photo">
                         <img src="photo_2020-07-04_10-14-00.jpg" width="250px" alt="my-photo">
                     </div>
                     <div class="about">
                         <div class="greeting">
                             <h4>Hello!</h4>
-                            <h1><span id="id">I'm</span> Artyom Pankov</h1>
+                            <h1><span id="span">I'm</span> Artyom Pankov</h1>
                         </div>
                         <div class="information">
                             <table>
@@ -70,24 +70,24 @@
                             </table>
                         </div>
                     </div>
-                </section>
-                <section class="social-networks">
+                </div>
+                <div class="social-networks">
                     <a href="https://github.com/avpankov"><i class="fab fa-github"></i></a>
                     <a href="https://www.instagram.com/a__pankov/"><i class="fab fa-instagram"></i></a>
                     <a href="https://vk.com/artyom_pankov"><i class="fab fa-vk"></i></a>
                     <a href="https://join.skype.com/invite/ASOKG6WX0cN4"><i class="fab fa-skype"></i></a>
-                </section>
-            </article>
-            <article class="resume">
+                </div>
+            </section>
+            <section class="resume">
                 <p>Due to my work history i gained experience in organization of various events and working with people. But once i felt craving for some other sphere where i could make things i can be proud of.<br>I started to attend courses of graphic design, and as a result discovered for myself front-end development.</p> 
                 <p>After some time of self-learning HTML, CSS i started cources <a href="https://olgamardvilko.github.io/up-skill-lab/#3c6f4b4af8" target="_blank">up skill lab</a>, <a href="https://learn.javascript.ru/">learn.javascript.ru</a>.<br>And must say i feel this is the sphere i'm interested in, i'm ready to discover it more and more.<br>My goal right now is to obtain enough practical skills to get a job offer. Ability to learn fast and sufficient level of English are with me.</p>
-            </article>
-            <article class="skills">
+            </section>
+            <section class="skills">
                 <h3 class="uppercase">Professional skills</h3>
                 <table>
                     <tr>
                         <td>
-                            <p>Photoshop, Illustrator, Indesign</p>
+                            <p>Photoshop, Illustrator, InDesign</p>
                         </td>
                         <td>
                             <div class="rectangle1"></div>
@@ -131,8 +131,8 @@
                         </td>
                     </tr>
                 </table>
-            </article>
-            <article class="comment">
+            </section>
+            <section class="comment">
                 <h3 class="uppercase">leave feedback</h3>
                 <div class="container">
                     <div>
@@ -142,7 +142,7 @@
                                     <p>Comment here: </p>
                                 </td>
                                 <td>
-                                    <textarea name="comment" id="comment" cols="30" rows="3" placeholder="Write something…"></textarea>
+                                    <textarea name="comment" id="comment" cols="30" rows="3" placeholder="Write something…" data-tooltip="Comment"></textarea>
                                 </td>
                             </tr>
                             <tr>
@@ -157,10 +157,17 @@
                     </div>
                     <div class="btn uppercase"><h4>Check</h4></div>
                 </div>
-            </article>
+            </section>
         </div>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="social-networks footer">
+        <a href="https://github.com/avpankov"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/a__pankov/"><i class="fab fa-instagram"></i></a>
+        <a href="https://vk.com/artyom_pankov"><i class="fab fa-vk"></i></a>
+        <a href="https://join.skype.com/invite/ASOKG6WX0cN4"><i class="fab fa-skype"></i></a>
+      </div>
+    </footer>
 </body>
 <script src="script.js"></script>
 </html>

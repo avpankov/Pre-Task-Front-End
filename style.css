@@ -1,3 +1,10 @@
+:root {
+  --color-primary: rgb(95, 181, 221);
+  --color-additional: rgb(173, 223, 247);
+  --color-shadow:rgb(172, 171, 171);
+  --color-background: #FFF;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -9,7 +16,7 @@
 
 }
 
-* h1 {
+h1 {
     font-size: 2.5rem;
 }
 
@@ -19,17 +26,22 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    height: 2000px;
+    height: 1600px;
     background: linear-gradient(#fff, rgb(226, 226, 226));
     background-size: contain;
     position: relative;
 }
 
+/* Header */
+
 .header {
     height: 300px;
-    background-image: url(thought-catalog-505eectW54k-unsplash.jpg);
+    background-image: url(header-img.jpg);
     background-size: cover;
+    box-shadow: 0 0 5px rgb(172, 171, 171);
 }
+
+/* Main */
 
 main {
     position: relative;  
@@ -44,12 +56,14 @@ main {
     margin-left: -400px;
 }
 
+/* Section intro */
+
 a:link {
     color: black;
 }
 
 .intro {
-    background-color: #fff;
+    background-color: var(--color-background);
     box-shadow: 0 0 5px rgb(172, 171, 171);
 }
 
@@ -65,14 +79,14 @@ a:link {
     margin: 40px 40px 40px 20px;
 }
 
-#id {
+#span {
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
 }
 
 .about-me .about .greeting {
     padding-bottom: 20px;
-    border-bottom: 1px solid rgb(235, 235, 235);
+    border-bottom: 1px solid var(--color-shadow);
 }
 
 .about-me .about .greeting h1 {
@@ -88,7 +102,7 @@ a:link {
 }
 
 .social-networks {
-    background-color: #4fb2cac5;
+    background-color: var(--color-primary);
     font-size: 1.2rem;
     padding: 25px 80px;
     display: flex;
@@ -96,8 +110,10 @@ a:link {
 }
 
 .social-networks a {
-    color: #fff;
+    color: var(--color-background);
 }
+
+/* Section Resume */
 
 .resume {
     margin: auto;
@@ -111,12 +127,14 @@ a:link {
     padding: 20px 0 ;
 }
 
+/* Section Skills */
+
 .skills {
     text-align: center;
     margin: auto;
     padding: 20px 0;
     width: 800px;
-    background-color: #fff;
+    background-color: var(--color-background);
     box-shadow: 0 0 5px rgb(172, 171, 171);
 }
 
@@ -132,7 +150,7 @@ a:link {
     position: absolute;
     width: 400px;
     height: 8px;
-    background: #7fdeebc5;
+    background: var(--color-additional);
     border-radius: 10px;
 }
 
@@ -140,7 +158,7 @@ a:link {
     position: absolute;
     width: 310px;
     height: 8px;
-    background: #4fb2cac5;
+    background: var(--color-primary);
     border-radius: 10px;
 }
 
@@ -148,7 +166,7 @@ a:link {
     position: absolute;
     width: 400px;
     height: 8px;
-    background: #7fdeebc5;
+    background: var(--color-additional);
     border-radius: 10px;
 }
 
@@ -156,7 +174,7 @@ a:link {
     position: absolute;
     width: 300px;
     height: 8px;
-    background: #4fb2cac5;
+    background: var(--color-primary);
     border-radius: 10px;
 }
 
@@ -164,7 +182,7 @@ a:link {
     position: absolute;
     width: 400px;
     height: 8px;
-    background: #7fdeebc5;
+    background: var(--color-additional);
     border-radius: 10px;
 }
 
@@ -172,7 +190,7 @@ a:link {
     position: absolute;
     width: 280px;
     height: 8px;
-    background: #4fb2cac5;
+    background: var(--color-primary);
     border-radius: 10px;
 }
 
@@ -180,7 +198,7 @@ a:link {
     position: absolute;
     width: 400px;
     height: 8px;
-    background: #7fdeebc5;
+    background: var(--color-additional);
     border-radius: 10px;
 }
 
@@ -188,7 +206,7 @@ a:link {
     position: absolute;
     width: 100px;
     height: 8px;
-    background: #4fb2cac5;
+    background: var(--color-primary);
     border-radius: 10px;
 }
 
@@ -196,7 +214,7 @@ a:link {
     position: absolute;
     width: 400px;
     height: 8px;
-    background: #7fdeebc5;
+    background: var(--color-additional);
     border-radius: 10px;
 }
 
@@ -204,9 +222,11 @@ a:link {
     position: absolute;
     width: 170px;
     height: 8px;
-    background: #4fb2cac5;
+    background: var(--color-primary);
     border-radius: 10px;
 }
+
+/* Section Comment */
 
 .comment {
     padding: 40px 0;
@@ -214,7 +234,7 @@ a:link {
 }
 
 .container {
-    margin: 20px 0;
+    margin: 30px 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -229,8 +249,18 @@ a:link {
     padding: 5px;;
     resize: none;
     border: none;
-    box-shadow: 0 0 5px rgb(172, 171, 171);
+    box-shadow: 0 0 5px var(--color-shadow);
     font-family: 'Montserrat', sans-serif;
+}
+
+.tooltip {
+    position: fixed;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 10px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 0 5px var(--color-shadow);
 }
 
 .comment h3 {
@@ -238,8 +268,8 @@ a:link {
 }
 
 .btn {
-    color: #fff;
-    background-color: #4fb2cac5;
+    color: var(--color-background);
+    background-color: var(--color-primary);
     border: none;
     border-radius: 5px;
     padding: 20px 40px;
@@ -249,7 +279,7 @@ a:link {
 }
 
 .btn:hover {
-    box-shadow: 0 0 6px rgb(172, 171, 171);
+    box-shadow: 0 0 5px var(--color-shadow);
 }
 
 .invalid {
@@ -262,4 +292,20 @@ a:link {
     height: 5px;
     color: green;
     font-size: 12px;
+}
+
+/* Footer */
+
+footer {
+    position: absolute;
+    top: 1550px;
+    height: 75px;
+    width: 100%;
+    background-color: var(--color-primary);
+    box-shadow: 0 0 5px var(--color-shadow);
+}
+
+.footer {
+    margin: auto;
+    width: 800px;
 }
